@@ -5,9 +5,31 @@
     <script src="jquery-3.1.1.min.js" charset="utf-8"></script>
     <script src="app.js" charset="utf-8"></script>
     <link rel="stylesheet" href="style.css" media="screen">
-    <title></title>
+    <title>Tic Tac Toe</title>
   </head>
   <body>
-
+    <h1>Tic Tac Toe</h1>
+    <table id="gameBoard">
+      <tr id="column">
+        <th id="left"></th>
+        <th id="inside"></th>
+        <th id="right"></th>
+      </tr>
+      <tr id="top">
+        <td class="tSquare" id="tSq1"><button type="click" name="square" class="square" id="btSq1"></button></td>
+        <td class="tSquare" id="tSq2"><button type="click" name="square" class="square" id="btSq2"></button></td>
+        <td class="tSquare" id="tSq3"><button type="click" name="square" class="square" id="btSq3"></button></td>
+      </tr>
+      <tr id="middle">
+        <td class="mSquare" id="mSq1"><button type="click" name="square" class="square" id="bmSq1"></button></td>
+        <td class="mSquare" id="mSq2"><button type="click" name="square" class="square" id="bmSq2"></button></td>
+        <td class="mSquare" id="mSq3"><button type="click" name="square" class="square" id="bmSq3"></button></td>
+      </tr>
+      <tr id="bottom">
+        <td class="bSquare" id="bSq1"><button type="click" name="square" class="square" id="bbSq1"></button></td>
+        <td class="bSquare" id="bSq2"><button type="click" name="square" class="square" id="bbSq2"></button></td>
+        <td class="bSquare" id="bSq3"><button type="click" name"square"  class="square" id="bbSq3"></button></td>
+      </tr>
+    </table>
   </body>
 </html>
