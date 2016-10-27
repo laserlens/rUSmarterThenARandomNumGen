@@ -10,6 +10,13 @@ table {
   width: 15em;
   overflow: hidden;
   white-space: nowrap;
+  table-layout: fixed;
+}
+td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: break-word
 }
 h1  {
   margin-top: 8em;
@@ -19,6 +26,9 @@ h1  {
 }
 #tSq1, #mSq1, #bSq1, #mSq2, #tSq2, #bSq2{
   border-right: thick solid black;
+}
+#tSq3, #mSq3, #bSq3{
+  border-right: thick solid white;
 }
 button {
   width: 100%;
